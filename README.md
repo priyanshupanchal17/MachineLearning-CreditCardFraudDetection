@@ -10,3 +10,13 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 OBJECTIVE
 The project aims to provide various methods to analyse the cradit card fraud detections and decide on the most suitable approach to implement.
+
+CONCLUSION
+Different Models achieve different levels of accuracy or precision
+Decision Tree : 0.83
+Logistic Regression : 0.91
+Random Forest : 0.94
+SVM : 0.94
+
+An Ideal and most optimal solution would be to use Random Forest Classifier along with Bagging techniques like XGBoost , CatBoost etc to further enhance the adaptability of the model to larger datasets.
+
